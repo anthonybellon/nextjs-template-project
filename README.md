@@ -50,10 +50,10 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Troubleshooting
 
-If you encounter issues during the build process, try setting the `NODE_ENV` to development and then running the build again:
+If you encounter issues during the build process, try setting the `NODE_ENV` to production and then running the build again:
 
 ```bash
-export NODE_ENV=development
+export NODE_ENV=production
 npm run build
 ```
 
