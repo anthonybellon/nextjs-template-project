@@ -91,10 +91,6 @@ npm run build
 
 - `next-intl`: Internationalization framework for Next.js.
 
-### Error Tracking
-
-- `@sentry/nextjs`: Error tracking and performance monitoring.
-
 ### Linting and Formatting
 
 - `eslint`: Linting utility for JavaScript and TypeScript.
