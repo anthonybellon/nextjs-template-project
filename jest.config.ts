@@ -9,7 +9,6 @@ const customConfig: Config = {
   coverageProvider: 'v8',
   testEnvironment: 'jest-environment-jsdom',
   setupFilesAfterEnv: ['./jest.setup.ts'],
-  preset: 'ts-jest',
   // moduleNameMapper: {
   //   '^@components/(.*)$': '<rootDir>/src/components/$1',
   //   '^@pages/(.*)$': '<rootDir>/src/app/pages/$1',
