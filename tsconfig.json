@@ -17,6 +17,7 @@
     "jsx": "react-jsx",
     "incremental": true,
     "target": "esnext",
+    "ignoreDeprecations": "6.0",
     "plugins": [
       {
         "name": "next"
@@ -24,6 +25,9 @@
     ],
     "baseUrl": "./",
     "paths": {
+      "@/*": [
+        "./src/*"
+      ],
       "@components/*": [
         "src/components/*"
       ],
